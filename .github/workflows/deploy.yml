@@ -23,7 +23,7 @@ jobs:
           echo $line
         done
     - name: Build
-      run: yarn build --report
+      run: npm run build --report
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
       env:
